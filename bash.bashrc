@@ -12,11 +12,8 @@ export HISTCONTROL=ignoreboth
 
 # Default command line prompt.
 PROMPT_DIRTRIM=2
-PS1='\[\033[0;34m\]┌──( \[\033[1;31m\]\u@\h\[\033[0;34m\])-[\033[0m\W\[\033[0;34m\]]\n\[\033[0;34m\]└─\[\033[1;31m\]#\[\033[37m\]  '
-ANDROID='/storage/emulated/0/AProjects/cyber/CTF/'
-CYBER="$HOME/cyber"
-USER="/data/data/com.termux/files/usr"
-udom="/storage/emulated/0/udomsr2/"
+PS1='\[\033[0;34m\]┌──(\[\033[1;31m\]\u@\h\[\033[0;34m\])-[\033[0m\W\[\033[0;34m\]]\n\[\033[0;34m\]└─\[\033[1;31m\]#\[\033[37m\]  '
+
 
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available
